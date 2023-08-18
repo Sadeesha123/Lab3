@@ -1,0 +1,5 @@
+1. The 1D convolutional edge detection can be used to identify the edges by reducing noise in the image, measuring the magnitude of the change region and by finding peaks of change using thresholds and non-maximum suppression.
+
+3. 
+   i)  Many numbers of epochs lead to overfitting of the training dataset. To minimize this early stopping is a good option. This method can be used to stop the training when the training epochs does not improve anymore and also it helps to specify the large number of training epochs.
+   ii) Since batch gradient descent computes the gradient using the whole training dataset in each iteration, it takes longer to converge. On the other hand, stochastic gradient descent can converge more quickly since it changes the model parameters after evaluating each case.
